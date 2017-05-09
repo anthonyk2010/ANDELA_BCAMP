@@ -20,4 +20,5 @@ class Prime_test(unittest.TestCase):
     self.assertEqual(is_prime(1), True)
     self.assertEqual(is_prime(1), False)
     self.assertEqual(is_prime(2), True)
+    self.assertEqual(is_prime(2), False)
 unittest.main()
